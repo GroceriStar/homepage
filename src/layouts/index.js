@@ -1,11 +1,11 @@
-import React from 'react'
+import React  from 'react'
 import Helmet from 'react-helmet'
 import { Link, withPrefix } from 'gatsby-link'
 import '../assets/scss/main.scss'
-import Header from '../components/Header'
-import Menu from '../components/Menu'
+import Header  from '../components/Header'
+import Menu    from '../components/Menu'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer'
+import Footer  from '../components/Footer'
 
 class Template extends React.Component {
 

@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React  from 'react'
+import Link   from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 
@@ -12,13 +12,16 @@ import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title
+
+        const siteTitle       = this.props.data.site.siteMetadata.title
         const siteDescription = this.props.data.site.siteMetadata.description
 
         return (
             <div>
                 <Helmet>
-                    <title>{siteTitle}</title>
+                    <title>
+                      {siteTitle}
+                    </title>
                     <meta name="description" content={siteDescription} />
                 </Helmet>
 
@@ -33,6 +36,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Tempus</h3>
@@ -40,6 +44,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Magna</h3>
@@ -47,6 +52,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Ipsum</h3>
@@ -54,6 +60,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Consequat</h3>
@@ -61,6 +68,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Etiam</h3>
@@ -68,15 +76,21 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
+
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>
+                              Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+                               Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+                           </p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li>
+                                  <Link to="/landing" className="button next">Get Started</Link>
+                                </li>
                             </ul>
                         </div>
                     </section>
