@@ -6,7 +6,7 @@ const ContactSidebar = (props) => (
       <section>
           <div className="contact-method">
               <span className="icon alt fa-envelope"></span>
-              {/*}<h3>Email</h3>*/}
+              <h3>Email the founder</h3>
               <Link className="icon alt fa-envelope" to="mailto:arthur.tkachenko.netweight@gmail.com">
                 <span className="label">Email Us</span>
               </Link>
@@ -32,4 +32,4 @@ const ContactSidebar = (props) => (
   </section>
 )
 
-export default Contact
+export default ContactSidebar

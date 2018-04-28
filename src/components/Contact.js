@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactSidebar from 'ContactSidebar'
+import ContactSidebar from './ContactSidebar'
 
 const Contact = (props) => (
     <section id="contact">
