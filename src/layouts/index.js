@@ -10,6 +10,14 @@ import Contact from '../components/Contact'
 import Footer  from '../components/Footer'
 
 
+// const Layout = ({ children, data }) => {
+//
+//
+//
+// };
+
+
+
 class Template extends React.Component {
 
     constructor(props) {
@@ -39,14 +47,16 @@ class Template extends React.Component {
         })
     }
 
+    // {/*title={data.site.siteMetadata.title}*/}
     render() {
         const { children } = this.props
-
+        // const { data }     = this.data
+        // console.log(data);
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
 
                 <Helmet
-                  title={data.site.siteMetadata.title}
+
                   meta={[
                     { charset: 'utf-8' },
                     { name: 'description', content: 'GS' },
@@ -56,6 +66,7 @@ class Template extends React.Component {
                   ]}
                 >
                   <link rel="stylesheet" href={withPrefix('skel.css')} />
+
                   {/*}<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
                   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
@@ -64,6 +75,7 @@ class Template extends React.Component {
 
                   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
                   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>*/}
+
                 </Helmet>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
@@ -82,3 +94,14 @@ Template.propTypes = {
 }
 
 export default Template
+
+//
+// export const query = graphql`
+//   query SiteTitleQuery {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `
