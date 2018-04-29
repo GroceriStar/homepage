@@ -16,7 +16,9 @@ const Bottom = ({  }) => (
       </button>
     </div>
     </div>
-      <div className="bottom-sub-heading container"> <p className="heavy-text"> Still not Convinced? </p> <p className="light-text"> May be this ol' list of features will help! </p>
+      <div className="bottom-sub-heading container">
+      <p className="heavy-text"> Still not Convinced? </p>
+      <p className="light-text"> May be this all list of features will help! </p>
     </div>
   </div>
 );

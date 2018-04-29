@@ -2,9 +2,10 @@ import React  from 'react'
 import Link   from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import Banner from '../components/Banner'
-import ScienceTag from '../components/ScienceTag'
+import Banner      from '../components/Banner'
+import ScienceTag  from '../components/ScienceTag'
 import ScienceTag2 from '../components/ScienceTag2'
+import Bottom      from '../components/BottomChangeThis'
 
 import data  from '../assets/data/first'
 
@@ -36,7 +37,7 @@ class HomeIndex extends React.Component {
 
                   <ScienceTag />
                   <ScienceTag2 />
-
+                  <Bottom />
                     {/*}<section id="one" className="tiles">
 
                         <article style={{backgroundImage: `url(${pic01})`}}>
