@@ -37,6 +37,11 @@ const Menu = (props) => (
               Log In
               </a>
             </li>
+            <li>
+              <a href="#" className="button fit">
+              Contacts
+              </a>
+            </li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu}

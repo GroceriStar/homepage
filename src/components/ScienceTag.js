@@ -44,7 +44,9 @@ const ScienceTag = (  ) => (
 	<section id="two2">
 		<div className="inner">
 			<header className="major">
-				<h2>Massa libero</h2>
+				<h2>
+					{data[0][3]}
+				</h2>
 			</header>
 			<p>
 				{data[0][0]}
@@ -55,9 +57,7 @@ const ScienceTag = (  ) => (
 			<p>
 				{data[0][2]}
 			</p>
-			<p>
-				{data[0][3]}
-			</p>
+
 			<ul className="actions">
 					<li>
 						<Link to="/landing" className="button next">Read full study</Link>

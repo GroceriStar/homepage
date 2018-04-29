@@ -1,25 +1,26 @@
 import React from 'react'
-import Link from 'gatsby-link'
-//import logo from ''
+import Link  from 'gatsby-link'
+import pic01 from '../assets/images/pic01.jpg'
 
 const Bottom = ({  }) => (
-  <div className="container">
-    <div className="bottom">
-    <div className="bottom-heading">
-      <p> Dont take our word for it.<br/>Try it out yourself. </p>
-    </div>
-    <div className="bottom-button">
 
-      <button type="button" className="btn btn-primary btn-lg btn-spl">
-        <i class="fab fa-apple"></i>
-        placeholder
-      </button>
-    </div>
-    </div>
-      <div className="bottom-sub-heading container">
-      <p className="heavy-text"> Still not Convinced? </p>
-      <p className="light-text"> May be this ol' list of features will help! </p>
-    </div>
-  </div>
+  <section id="one1" className="tiles">
+    <article style={{backgroundImage: `url(${pic01})`}}>
+        <header className="major">
+            <h3>
+              Dont take our word for it.<br/>Try it out yourself.
+            </h3>
+            <p>Still not Convinced?</p>
+            <span>May be this all list of features will help!</span>
+            <ul>
+              <li>
+              
+              </li>
+            </ul>
+        </header>
+        <Link to="/landing" className="link primary">Placeholder</Link>
+    </article>
+  </section>
+
 );
 export default Bottom
