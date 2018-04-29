@@ -1,7 +1,12 @@
 import React  from 'react'
 import Link   from 'gatsby-link'
 import Helmet from 'react-helmet'
+
 import Banner from '../components/Banner'
+import ScienceTag from '../components/ScienceTag'
+import ScienceTag2 from '../components/ScienceTag2'
+
+import data  from '../assets/data/first'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -29,7 +34,8 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-
+                  <ScienceTag />
+                  <ScienceTag2 />
 
                     {/*}<section id="one" className="tiles">
 
@@ -81,7 +87,7 @@ class HomeIndex extends React.Component {
                             <Link to="/landing" className="link primary"></Link>
                         </article>
 
-                    </section>
+                    </section>*/}
                     <section id="two">
                         <div className="inner">
                             <header className="major">
@@ -98,7 +104,7 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
-                    */}
+
                 </div>
 
             </div>
