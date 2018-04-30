@@ -66,7 +66,28 @@ class HomeIndex extends React.Component {
                      <Featureslist content="Save time by cloning Ultimate Template" />
                    </div>
 
+                   <h3>Blockquote</h3>
+                   <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
 
+
+                   <div className="row">
+                       <div className="6u 12u(small)">
+
+                           <h4>Unordered</h4>
+                           <ul>
+                               <li>Dolor etiam magna etiam.</li>
+                               <li>Sagittis lorem eleifend.</li>
+                               <li>Felis dolore viverra.</li>
+                           </ul>
+
+                           <h4>Alternate</h4>
+                           <ul className="alt">
+                               <li>Dolor etiam magna etiam.</li>
+                               <li>Sagittis lorem eleifend.</li>
+                               <li>Felis feugiat viverra.</li>
+                           </ul>
+
+                       </div>
 
                   <Bottom />
 
