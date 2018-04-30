@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "flow-bin": "^0.71.0",
     "gatsby": "^1.9.235",
-    "gatsby-link": "^1.6.39",
     "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.39",
     "gatsby-plugin-google-analytics": "^1.0.24",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.23",
