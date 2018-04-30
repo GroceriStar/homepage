@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Banner      from '../components/Banner'
 import ScienceTag  from '../components/ScienceTag'
 import ScienceTag2 from '../components/ScienceTag2'
+
+import Feature from '../components/Feature'
+import Featureslist from '../components/FeaturesList'
 import Bottom      from '../components/BottomChangeThis'
 
 import data  from '../assets/data/first'
@@ -35,61 +38,69 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                  <ScienceTag />
-                  <ScienceTag2 />
+                <ScienceTag />
+                <ScienceTag2 />
 
 
-                  <Feature img="fas fa-shopping-cart fa-2x"
-                  heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
-                  <Feature img="fas fa-mobile-alt fa-2x"
-                  heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
-                  <Feature img="fas fa-cogs fa-2x"
-                  heading="Customization" content="This is your own lists. You can do anything."/>
-
-
-
-                  <Feature img="fas fa-cogs fa-2x"
-                    heading="Quick access (coming soon)" content="Search ingredients in database, at your lists"/>
-                  <Feature img="fas fa-cogs fa-2x"
-                    heading="Favourite ingredients (Coming soon)" content="Save your favorite ingredients for fast access later"/>
-                  <Feature img="fas fa-cogs fa-2x"
-                    heading="Plan your family budget (coming soon)" content="You can calculate and plan your purchases. Control how much do you spend on this shopping session"/>
+                <Feature img="fas fa-shopping-cart fa-2x"
+                heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
+                <Feature img="fas fa-mobile-alt fa-2x"
+                heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
+                <Feature img="fas fa-cogs fa-2x"
+                heading="Customization" content="This is your own lists. You can do anything."/>
 
 
 
+                                  <Feature img="fas fa-cogs fa-2x"
+                                    heading="Quick access (coming soon)" content="Search ingredients in database, at your lists"/>
+                                  <Feature img="fas fa-cogs fa-2x"
+                                    heading="Favourite ingredients (Coming soon)" content="Save your favorite ingredients for fast access later"/>
+                                  <Feature img="fas fa-cogs fa-2x"
+                                    heading="Plan your family budget (coming soon)" content="You can calculate and plan your purchases. Control how much do you spend on this shopping session"/>
 
-                  <div className="outer-container container">
-                     <Featureslist content="Instant Handles (coming soon)" />
-                     <Featureslist content="Save and share your lists (coming soon)" />
-                     <Featureslist content="Plan your family budget (coming soon)" />
-                     <Featureslist content="Improve your health and live longer" />
-                     <Featureslist content="Save time by cloning Ultimate Template" />
-                   </div>
+
+                                    <div className="outer-container container">
+                                       <Featureslist content="Instant Handles (coming soon)" />
+                                       <Featureslist content="Save and share your lists (coming soon)" />
+                                       <Featureslist content="Plan your family budget (coming soon)" />
+                                       <Featureslist content="Improve your health and live longer" />
+                                       <Featureslist content="Save time by cloning Ultimate Template" />
+                                     </div>
 
                    <h3>Blockquote</h3>
-                   <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+                   <blockquote>
+                   Fringilla nisl.
+                   Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod.
+                    Vestibulum ante ipsum primis in faucibus vestibulum.
+                     Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus.
+                      Vestibulum ante ipsum primis in faucibus vestibulum.
+                      Blandit adipiscing eu felis.
+                      </blockquote>
 
 
-                   <div className="row">
-                       <div className="6u 12u(small)">
+                                         <div className="row">
+                                             <div className="6u 12u(small)">
 
-                           <h4>Unordered</h4>
-                           <ul>
-                               <li>Dolor etiam magna etiam.</li>
-                               <li>Sagittis lorem eleifend.</li>
-                               <li>Felis dolore viverra.</li>
-                           </ul>
+                                                 <h4>Unordered</h4>
+                                                 <ul>
+                                                     <li>Dolor etiam magna etiam.</li>
+                                                     <li>Sagittis lorem eleifend.</li>
+                                                     <li>Felis dolore viverra.</li>
+                                                 </ul>
 
-                           <h4>Alternate</h4>
-                           <ul className="alt">
-                               <li>Dolor etiam magna etiam.</li>
-                               <li>Sagittis lorem eleifend.</li>
-                               <li>Felis feugiat viverra.</li>
-                           </ul>
+                                                 <h4>Alternate</h4>
+                                                 <ul className="alt">
+                                                     <li>Dolor etiam magna etiam.</li>
+                                                     <li>Sagittis lorem eleifend.</li>
+                                                     <li>Felis feugiat viverra.</li>
+                                                 </ul>
 
-                       </div>
 
-                  <Bottom />
+                                             </div>
+                                             </div>
+                                        
+                 <Bottom />
+
 
                     {/*}<section id="one" className="tiles">
 
