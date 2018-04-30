@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^1.9.235",
+    "gatsby": "^1.9.255",
     "gatsby-link": "^1.6.41",
     "gatsby-image": "^1.0.42",
     "gatsby-plugin-google-analytics": "^1.0.24",
