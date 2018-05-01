@@ -9,6 +9,9 @@ import ScienceTagBlockquote from '../components/ScienceTagBlockquote'
 
 import Feature from '../components/Feature'
 import FeaturesTag from '../components/FeaturesTag'
+import FeaturesTag2 from '../components/FeaturesTag2'
+
+
 // import Featureslist from '../components/FeaturesList'
 
 import Bottom      from '../components/BottomChangeThis'
@@ -46,83 +49,12 @@ class HomeIndex extends React.Component {
                 <ScienceTagBlockquote />
 
 
-                <Feature img="fas fa-shopping-cart fa-2x"
-                heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
-                <Feature img="fas fa-mobile-alt fa-2x"
-                heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
-                <Feature img="fas fa-cogs fa-2x"
-                heading="Customization" content="This is your own lists. You can do anything."/>
-
-                <hr />
-
-                <Feature img="fas fa-cogs fa-2x"
-                  heading="Quick access (coming soon)" content="Search ingredients in database, at your lists"/>
-                <Feature img="fas fa-cogs fa-2x"
-                  heading="Favourite ingredients (Coming soon)" content="Save your favorite ingredients for fast access later"/>
-                <Feature img="fas fa-cogs fa-2x"
-                  heading="Plan your family budget (coming soon)" content="You can calculate and plan your purchases. Control how much do you spend on this shopping session"/>
-
-
 
 
                  <FeaturesTag />
+                 <FeaturesTag2 />
 
 
-
-
-
-
-                    {/*}<section id="one" className="tiles">
-
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-
-                    </section>*/}
                     <section id="two">
                         <div className="inner">
                             <header className="major">

@@ -7,19 +7,43 @@ const FeaturesTag = (  ) => (
   <section id="two2">
     <div className="inner">
     <h3>
-      Dont take our word for it.<br/>Try it out yourself.
+      Dont take our word for it.<br/>
+      Try it out yourself.
     </h3>
     <h4>
       Still not Convinced?
     </h4>
     <span>May be this all list of features will help!</span>
-
+    <div>
+    <span className="icon fa-check"></span>
+    <h3>Instant Handles (coming soon)</h3>
+    </div>
     <ul className="alt">
-        <li className="icon fa-tumblr"><span className="label">Instant Handles (coming soon)</span</li>
-        <li className="icon fa-tumblr"><span className="label">Save and share your lists (coming soon)</span</li>
-        <li className="icon fa-tumblr"><span className="label">Plan your family budget (coming soon)</span</li>
-        <li className="icon fa-tumblr"><span className="label">Improve your health and live longer</span</li>
-        <li className="icon fa-tumblr"><span className="label">Save time by cloning Ultimate Template</span</li>
+        <li className="icon fa-check">
+
+          Instant Handles (coming soon)
+
+        </li>
+        <li className="icon fa-check">
+
+          Save and share your lists (coming soon)>
+
+        </li>
+        <li className="icon fa-check">
+
+          Plan your family budget (coming soon)
+
+        </li>
+        <li className="icon fa-check">
+
+          Improve your health and live longer
+
+        </li>
+        <li className="icon fa-check">
+
+          Save time by cloning Ultimate Template
+
+        </li>
     </ul>
 
      <ul className="actions">

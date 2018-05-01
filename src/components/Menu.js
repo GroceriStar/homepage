@@ -38,9 +38,9 @@ const Menu = (props) => (
               </a>
             </li>
             <li>
-              <a href="#" className="button fit">
+              <Link onClick={props.onToggleMenu} to="/Contacts">
               Contacts
-              </a>
+              </Link>
             </li>
             </ul>
         </div>
