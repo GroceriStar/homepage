@@ -7,12 +7,16 @@ const FeaturesTag = (  ) => (
   <section id="two2">
     <div className="inner">
     <div className="row">
-    <div className="4u 12u$(medium)">&nbsp;</div>
-    <div className="4u 12u$(medium)">
+    <div className="3u 12u$(medium)">&nbsp;</div>
+    <div className="6u 12u$(medium)">
     <h3>
-      Dont take our word for it. <br/>
+      Dont take our word for it.
       Try it out yourself.
     </h3>
+
+
+
+
     <h4>
       Still not Convinced?
     </h4>
@@ -53,16 +57,8 @@ const FeaturesTag = (  ) => (
       </ul>
 
     </div>
-    <div className="4u 12u$(medium)">&nbsp;</div>
+    <div className="3u 12u$(medium)">&nbsp;</div>
     </div>
-
-
-
-
-
-
-
-
 
    </div>
  </section>

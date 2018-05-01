@@ -41,6 +41,7 @@ const FeaturesTag2 = (  ) => (
 </div>
       </div>
       <hr className="major" />
+      
         <h3>Coming soon features</h3>
       <div className="row">
         <div className="4u 12u$(medium)"> <Feature img="icon alt fa-cogs fa-2x"
@@ -49,45 +50,13 @@ const FeaturesTag2 = (  ) => (
         <div className="4u 12u$(medium)"> <Feature img="icon alt fa-cogs fa-2x"
           heading="Favourite ingredients" content="Save your favorite ingredients for fast access later"/>
 </div>
-        <div className="4u 12u$(medium)"> <Feature img="fas alt fa-cogs fa-2x"
+        <div className="4u 12u$(medium)"> <Feature img="icon alt fa-cogs fa-2x"
        heading="Plan your family budget" content="You can calculate and plan your purchases. Control how much do you spend on this shopping session"/>
 </div>
       </div>
 
-    <ul className="alt">
-
-        <li className="icon fa-check">
 
 
-        </li>
-        <li className="icon fa-check">
-
-
-        </li>
-        <li className="icon fa-check">
-
-
-        </li>
-        <li className="icon fa-check">
-
-
-        </li>
-        <li className="icon fa-check">
-
-
-
-        </li>
-        <li>
-
-
-        </li>
-    </ul>
-
-     <ul className="actions">
-         <li>
-           <Link to="/landing" className="button next">Clone shopping list</Link>
-         </li>
-     </ul>
    </div>
  </section>
 
