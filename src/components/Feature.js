@@ -8,8 +8,8 @@ const Feature = ( props ) => (
 			{ props.img === ""
 				? <span></span>
 				: <div className="icon-container"> <i className={props.img}></i> </div> }
-			<p className="feature-heading">{props.heading}</p>
-			<p className="feature-content">{props.content}</p>
+			<h3>{props.heading} </h3>
+			<p> {props.content} </p>
 		</div>
 	</div>
 );
