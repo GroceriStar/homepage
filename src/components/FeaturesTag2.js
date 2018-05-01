@@ -1,7 +1,7 @@
 import React from 'react'
 import Link  from 'gatsby-link'
 // import data  from '../assets/data/second'
-
+import Feature from '../components/Feature'
 
                 // <Feature img="fas fa-shopping-cart fa-2x"
                 // heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
@@ -32,33 +32,33 @@ const FeaturesTag2 = (  ) => (
 
         <li className="icon fa-check">
 
-        <Feature img="fas fa-shopping-cart fa-2x"
+        <Feature img="icon fa-shopping-cart fa-2x"
         heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
 
         </li>
         <li className="icon fa-check">
 
-        <Feature img="fas fa-mobile-alt fa-2x"
+        <Feature img="icon fa-mobile-alt fa-2x"
         heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
 
         </li>
         <li className="icon fa-check">
 
-        <Feature img="fas fa-cogs fa-2x"
+        <Feature img="icon fa-cogs fa-2x"
         heading="Customization" content="This is your own lists. You can do anything."/>
 
         </li>
         <li className="icon fa-check">
 
-        <Feature img="fas fa-cogs fa-2x"
+        <Feature img="icon fa-cogs fa-2x"
           heading="Quick access (coming soon)" content="Search ingredients in database, at your lists"/>
 
         </li>
         <li className="icon fa-check">
 
-        <Feature img="fas fa-cogs fa-2x"
+        <Feature img="icon fa-cogs fa-2x"
           heading="Favourite ingredients (Coming soon)" content="Save your favorite ingredients for fast access later"/>
-      
+
 
         </li>
         <li>
