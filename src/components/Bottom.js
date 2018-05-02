@@ -11,7 +11,7 @@ const Bottom = ({  }) => (
               Dont take our word for it.<br/>Try it out yourself.
             </h3>
             <p>Still not Convinced?</p>
-            <span>May be this all list of features will help!</span>
+            <span>Here is how our app can help you!</span>
             <ul>
               <li>
               
