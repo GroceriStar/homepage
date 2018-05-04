@@ -1,7 +1,8 @@
 import React from 'react'
 import ContactSidebar from './ContactSidebar'
 
-const Contact = (props) => (
+const Contact = ( props ) => (
+
     <section id="contact">
         <div className="inner">
             <section>
@@ -29,6 +30,7 @@ const Contact = (props) => (
             <ContactSidebar />
         </div>
     </section>
+    
 )
 
 export default Contact

@@ -14,7 +14,7 @@ import FeaturesTag2 from '../components/FeaturesTag2'
 
 // import Featureslist from '../components/FeaturesList'
 
-import Bottom      from '../components/BottomChangeThis'
+import Bottom      from '../components/Bottom'
 
 import data  from '../assets/data/first'
 
