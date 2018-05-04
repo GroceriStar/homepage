@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import Banner      from '../components/Banner'
 import ScienceTag  from '../components/ScienceTag'
 import ScienceTag2 from '../components/ScienceTag2'
-import ScienceTagBlockquote from '../components/ScienceTagBlockquote'
 
 import Feature from '../components/Feature'
 import FeaturesTag from '../components/FeaturesTag'
@@ -46,7 +45,7 @@ class HomeIndex extends React.Component {
 
                 <ScienceTag />
                 <ScienceTag2 />
-                <ScienceTagBlockquote />
+
 
 
 

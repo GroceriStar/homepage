@@ -34,7 +34,7 @@ const ScienceTag = (  ) => (
 
 			<ul className="actions">
 					<li>
-						<Link to="/landing" className="button next">Read full study</Link>
+						<Link to="{url}" className="button next">Read full study</Link>
 					</li>
 			</ul>
 		</div>

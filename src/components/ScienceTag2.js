@@ -1,35 +1,43 @@
 import React from 'react'
 import Link  from 'gatsby-link'
 
-
 import data from '../assets/data/second'
 
 
 const ScienceTag2 = (  ) => (
 
-	<section id="two3">
-			<div className="inner">
-					<header className="major">
-							<h2>
-								{data[1][3]}
-							</h2>
-					</header>
-					<p>
-						{data[1][0]}
-				 	</p>
-					 <p>
-					 	{data[1][1]}
-					 </p>
-					 <p>
-					 	{data[1][2]}
-					 </p>
-					 
-					<ul className="actions">
-							<li>
-								<Link to="/landing" className="button next">Read full study</Link>
-							</li>
-					</ul>
-			</div>
+	<section id="two2">
+		<div className="inner">
+			<header className="major">
+				<h2>
+					{data[1].title}
+				</h2>
+			</header>
+			<p>
+				{data[1].text[0]}
+			</p>
+			<p>
+				{data[1].text[1]}
+			</p>
+			<p>
+				{data[1].authors[0]}
+			</p>
+			<p>
+				{data[1].authors[1]}
+			</p>
+			<p>
+				{data[1].authors[2]}
+			</p>
+			<p>
+				{data[1].authors[3]}
+			</p>
+
+			<ul className="actions">
+					<li>
+						<Link to="{url}" className="button next">Read full study</Link>
+					</li>
+			</ul>
+		</div>
 	</section>
 
 );
