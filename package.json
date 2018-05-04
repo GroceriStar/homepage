@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^1.9.256",
+    "gatsby": "^1.9.259",
     "flow-bin": "^0.71.0",
     "gatsby-image": "^1.0.48",
     "gatsby-link": "^1.6.41",
