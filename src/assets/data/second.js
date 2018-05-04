@@ -8,8 +8,8 @@ let array = [
 			'Crawford D, Ball K, Mishra G, Salmon J, Timperio A',
 			'Public Health Nutr. 2007 Mar; 10(3):256-65.'
 		],
-		url: ''
-		data:
+		url: 'https://www.ncbi.nlm.nih.gov/pubmed/17288623'
+
 	},
 	{
 		title: 'Using a Grocery List Is Associated with a Healthier Diet and Lower BMI Among Very High Risk Adults',
@@ -23,8 +23,8 @@ let array = [
 			"gro.dnar@ztiwobud",
 			"strong RAND Health",
 		],
-		url:
-	}	
+		url: 'https://www.ncbi.nlm.nih.gov/pubmed/25959448'
+	}
 ];
 
 export default array;
