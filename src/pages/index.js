@@ -27,6 +27,7 @@ import pic06 from '../assets/images/pic06.jpg'
 
 
 class HomeIndex extends React.Component {
+  
     render() {
 
         const siteTitle       = this.props.data.site.siteMetadata.title
