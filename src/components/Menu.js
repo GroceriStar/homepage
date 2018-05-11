@@ -11,18 +11,23 @@ const Menu = (props) => (
                 </Link>
               </li>
               <li>
-                <Link onClick={props.onToggleMenu} to="/landing">
+                <Link onClick={props.onToggleMenu} to="/#">
                 Facebook Login
                 </Link>
               </li>
               <li>
-                <Link onClick={props.onToggleMenu} to="/generic">
+                <Link onClick={props.onToggleMenu} to="/#">
                 Signup
                 </Link>
               </li>
               <li>
-                <Link onClick={props.onToggleMenu} to="/elements">
+                <Link onClick={props.onToggleMenu} to="/#">
                 Elements
+                </Link>
+              </li>
+              <li>
+                <Link onClick={props.onToggleMenu} to="/Contacts">
+                Contacts
                 </Link>
               </li>
             </ul>
@@ -34,14 +39,10 @@ const Menu = (props) => (
             </li>
             <li>
               <a href="" className="button fit">
-              Log In
+              Facebook Login
               </a>
             </li>
-            <li>
-              <Link onClick={props.onToggleMenu} to="/Contacts">
-              Contacts
-              </Link>
-            </li>
+
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu}
