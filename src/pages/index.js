@@ -3,6 +3,7 @@ import Link   from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import Banner      from '../components/Banner'
+
 import ScienceTag  from '../components/ScienceTag'
 import ScienceTag2 from '../components/ScienceTag2'
 
@@ -23,6 +24,7 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
