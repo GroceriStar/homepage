@@ -17,7 +17,7 @@ const Banner = (props) => (
                 <ul className="actions">
                     <li>
                       <a href="#one" className="button next scrolly">
-                        Get Started
+                        Explore how it works
                       </a>
                     </li>
                 </ul>
