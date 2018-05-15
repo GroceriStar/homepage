@@ -5,20 +5,29 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    'gatsby-plugin-react-helmet',
+  	'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/posts`,
+        path: `/src/posts`,
         name: "posts",
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `/src/assets/images`,
         name: `images`,
-        path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+  		resolve: 'gatsby-source-filesystem',
+  		options: {
+  			path: 'src/pages',
+  			name: 'pages'
+  		}
+  	},
     {
       resolve: `gatsby-transformer-remark`,
       options: {
