@@ -15,7 +15,7 @@
     "gatsby-plugin-sharp": "^1.6.44",
     "gatsby-remark-copy-linked-files": "^1.5.32",
     "gatsby-remark-images": "^1.5.63",
-    "gatsby-source-filesystem": "^1.5.35",
+    "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-remark": "^1.7.40",
     "gatsby-transformer-sharp": "^1.6.24",
     "lodash": "^4.17.10"
