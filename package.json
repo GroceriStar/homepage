@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^1.9.259",
     "flow-bin": "^0.72.0",
+    "gatsby": "^1.9.259",
     "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.44",
+    "gatsby-plugin-catch-links": "^1.0.22",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
@@ -30,11 +31,11 @@
     "url": "https://github.com/ChangoMan/gatsby-starter-forty.git"
   },
   "scripts": {
-    "dev":     "gatsby develop",
-    "lint":     "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
-    "test":     "echo \"Error: no test specified\" && exit 1",
-    "develop":  "gatsby develop",
-    "build":    "gatsby build",
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
