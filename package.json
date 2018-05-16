@@ -5,7 +5,7 @@
   "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^1.9.259",
-    "flow-bin": "^0.71.0",
+    "flow-bin": "^0.72.0",
     "gatsby-image": "^1.0.51",
     "gatsby-link": "^1.6.44",
     "gatsby-plugin-google-analytics": "^1.0.31",
