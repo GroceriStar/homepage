@@ -9,7 +9,7 @@ const FeaturesSection = ({  }) => {
   			<Feature key="{i}" heading="{feature[0]}" content="{feature[1]}" img="fas fa-shopping-cart fa-2x" />
   		));
 
-  	listItems = (
+	listItems = (
     <div className="sectiontwo">
       {listItems}
     </div>
@@ -18,7 +18,8 @@ const FeaturesSection = ({  }) => {
   let listItems2 = _.each(data.headings, (i, heading) => (
   	<Feature key="{i}" heading="{heading[0]}" content="{heading[1]}" img="fas fa-shopping-cart fa-2x" />
   	));
-  	listItems2 = (
+
+	listItems2 = (
   	<div className="sectiontwo">
   		{listItems2}
   	</div>
@@ -29,7 +30,8 @@ const FeaturesSection = ({  }) => {
   	<Feature key="{i}" heading="{footer[0]}" content="{footer[1]}" img="fas fa-shopping-cart fa-2x" />
 
   	));
-  	listItems3 = (
+    
+	listItems3 = (
   	<div className="sectiontwo">
   		{listItems3}
   	</div>

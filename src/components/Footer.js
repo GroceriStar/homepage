@@ -10,19 +10,22 @@ const Footer = ( props ) => (
             <li>
               <Link className="icon alt fa-facebook" to="/auth/facebook">
                 <span className="label">
-                Continue with Facebook</span>
+                Continue with Facebook
+                </span>
               </Link>
             </li>
             <li>
               <Link className="icon alt fa-github" to="https://github.com/GroceriStar">
                 <span className="label">
-                GitHub Project</span>
+                GitHub Project
+                </span>
               </Link>
             </li>
             <li>
               <Link className="icon alt fa-linkedin" to="https://www.linkedin.com/company/11486092/">
                 <span className="label">
-                LinkedIn</span>
+                LinkedIn
+                </span>
               </Link>
             </li>
             <li>
@@ -35,19 +38,22 @@ const Footer = ( props ) => (
             <li>
               <Link className="icon alt fa-envelope" to="mailto:arthur.tkachenko.netweight@gmail.com">
                 <span className="label">
-                Email Us</span>
+                Email Us
+                </span>
               </Link>
             </li>
             <li>
               <Link to="/terms">
                 <span className="label">
-                Terms</span>
+                Terms
+                </span>
               </Link>
             </li>
             <li>
               <Link to="/privacy">
                 <span className="label">
-                Privacy</span>
+                Privacy
+                </span>
               </Link>
             </li>
             <li>

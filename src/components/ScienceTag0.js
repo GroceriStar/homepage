@@ -13,6 +13,8 @@ const ScienceTag = (  ) => (
 					{data[1].title}
 				</h2>
 			</header>
+
+
 			<p>
 				{data[1].text[0]}
 			</p>
@@ -34,7 +36,7 @@ const ScienceTag = (  ) => (
 
 			<ul className="actions">
 					<li>
-						<Link to="{url}" className="button next">Read full study</Link>
+						<Link to="{data[1].url}" className="button next">Read full study</Link>
 					</li>
 			</ul>
 		</div>

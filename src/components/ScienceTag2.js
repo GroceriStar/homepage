@@ -1,39 +1,46 @@
 import React from 'react'
 import Link  from 'gatsby-link'
+import data  from '../assets/data/second'
 
-import data from '../assets/data/second'
-
-const url = ''
 
 const ScienceTag2 = (  ) => (
 
-	<section id="two2">
+	<section id="science-tag1">
 		<div className="inner">
-			<header className="major">
-				<h2>
-					{data[1].title}
-				</h2>
-			</header>
-			<div className="content">
-			<p>
-				{data[1].text[0]}
-				{data[1].text[1]}
-			</p>
-			<p>
-				{data[1].authors[0]}
-			</p>
-			<p>
-				{data[1].authors[1]} <br />
-				{data[1].authors[2]} <br />
-				{data[1].authors[3]} <br />
-			</p>
 
-			<ul className="actions">
-					<li>
-						<Link to="{url}" className="button next">Read full study</Link>
-					</li>
-			</ul>
-			</div>
+
+				<div className="row">
+
+					<div className="12u 12u$(small) science-text">
+						{data[1].text[0]}
+					</div>
+
+					<div className="12u 12u$(small)">
+						<h3>
+							{data[1].title}
+						</h3>
+					</div>
+					<br />
+					<div className="12u 12u$(small)">
+						<h3>{data[1].authors[0]}</h3>
+					</div>
+					<div className="12u 12u$(small)">
+						<h3>{data[1].authors[1]}</h3>
+					</div>
+					<div className="12u 12u$(small)">
+						<br />
+						<ul className="actions">
+								<li>
+									<a href={data[1].url} className="button next">
+										Read full study
+									</a>
+								</li>
+						</ul>
+					</div>
+
+				</div>
+
+
 		</div>
 	</section>
 
