@@ -1,10 +1,9 @@
 import React from 'react'
 import Link  from 'gatsby-link'
-import data  from '../assets/data/second'
+import data  from '../../assets/data/second'
 
 
-
-const ScienceTag = (  ) => (
+const ScienceTag2 = (  ) => (
 
 	<section id="science-tag1">
 		<div className="inner">
@@ -13,26 +12,26 @@ const ScienceTag = (  ) => (
 				<div className="row">
 
 					<div className="12u 12u$(small) science-text">
-						{data[0].text[0]}
+						{data[1].text[0]}
 					</div>
 
 					<div className="12u 12u$(small)">
 						<h3>
-							{data[0].title}
+							{data[1].title}
 						</h3>
 					</div>
 					<br />
 					<div className="12u 12u$(small)">
-						<h3>{data[0].authors[0]}</h3>
+						<h3>{data[1].authors[0]}</h3>
 					</div>
 					<div className="12u 12u$(small)">
-						<h3>{data[0].authors[1]}</h3>
+						<h3>{data[1].authors[1]}</h3>
 					</div>
 					<div className="12u 12u$(small)">
 						<br />
 						<ul className="actions">
 								<li>
-									<a href={data[0].url} className="button next">
+									<a href="${data[1].url}" className="button next">
 										Read full study
 									</a>
 								</li>
@@ -45,6 +44,5 @@ const ScienceTag = (  ) => (
 		</div>
 	</section>
 
-
 );
-export default ScienceTag
+export default ScienceTag2

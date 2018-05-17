@@ -34,7 +34,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 33%;
 
 			.image {
 				display: none;
@@ -102,10 +102,10 @@
 				opacity: 0;
 			}
 
-			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
-				width: 60%;
-			}
+			// &:nth-child(4n - 1),
+			// &:nth-child(4n - 2) {
+			// 	width: 60%;
+			// }
 
 			&:nth-child(6n - 5) {
 				&:before {

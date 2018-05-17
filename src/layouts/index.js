@@ -4,10 +4,10 @@ import { Link, withPrefix } from 'gatsby-link'
 
 import '../assets/scss/main.scss'
 
-import Header  from '../components/Header'
+import Header  from '../components/Header/Header'
 import Menu    from '../components/Menu'
 import Contact from '../components/Contact'
-import Footer  from '../components/Footer'
+import Footer  from '../components/Footer/Footer'
 
 
 // const Layout = ({ children, data }) => {

@@ -1,7 +1,7 @@
 import React   from 'react'
 import Link    from 'gatsby-link'
 import Feature from 'Feature'
-import data    from '../assets/data/first'
+import data    from '../../assets/data/first'
 
 const FeaturesSection = ({  }) => {
 
@@ -30,7 +30,7 @@ const FeaturesSection = ({  }) => {
   	<Feature key="{i}" heading="{footer[0]}" content="{footer[1]}" img="fas fa-shopping-cart fa-2x" />
 
   	));
-    
+
 	listItems3 = (
   	<div className="sectiontwo">
   		{listItems3}

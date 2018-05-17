@@ -1,19 +1,19 @@
 import React from 'react'
 import Link  from 'gatsby-link'
 // import data  from '../assets/data/second'
-import Feature from '../components/Feature'
+import Feature from './Feature'
 
-                // <Feature img="fas fa-shopping-cart fa-2x"
-                // heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
-                // <Feature img="fas fa-mobile-alt fa-2x"
-                // heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
-                // <Feature img="fas fa-cogs fa-2x"
-                // heading="Customization" content="This is your own lists. You can do anything."/>
-                //
-                // <hr />
-                //
-                //
-                //
+// <Feature img="fas fa-shopping-cart fa-2x"
+// heading="Organize your shopping experience" content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."/>
+// <Feature img="fas fa-mobile-alt fa-2x"
+// heading="Mobile-oriented design (completed by Bootstrap)" content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."/>
+// <Feature img="fas fa-cogs fa-2x"
+// heading="Customization" content="This is your own lists. You can do anything."/>
+//
+// <hr />
+//
+//
+//
 
 
 
@@ -41,7 +41,7 @@ const FeaturesTag2 = (  ) => (
 </div>
       </div>
       <hr className="major" />
-      
+
         <h3>Coming soon features</h3>
       <div className="row">
         <div className="4u 12u$(medium)"> <Feature img="icon alt fa-cogs fa-2x"
