@@ -70,7 +70,7 @@ const Footer = ( props ) => (
                 &copy; Groceristar
               </li>
               <li>
-                Design:
+                Design: &nbsp;
                 <Link  to="https://html5up.net">
                 HTML5 UP
                 </Link>

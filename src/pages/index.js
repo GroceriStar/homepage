@@ -7,11 +7,11 @@ import Banner      from '../components/Banner'
 import ScienceTag  from '../components/ScienceTag/ScienceTag'
 import ScienceTag2 from '../components/ScienceTag/ScienceTag2'
 
-import Feature from '../components/Features/Feature'
+
 import FeaturesTag from '../components/Features/FeaturesTag'
 import FeaturesTag2 from '../components/Features/FeaturesTag2'
 
-// import FFFeature from '../components/Features/FFFeature'
+
 import FFList from '../components/Features/FFList'
 
 // import Featureslist from '../components/FeaturesList'
@@ -20,12 +20,6 @@ import Bottom      from '../components/Bottom'
 
 import data  from '../assets/data/first'
 
-// import pic01 from '../assets/images/pic01.jpg'
-// import pic02 from '../assets/images/pic02.jpg'
-// import pic03 from '../assets/images/pic03.jpg'
-// import pic04 from '../assets/images/pic04.jpg'
-// import pic05 from '../assets/images/pic05.jpg'
-// import pic06 from '../assets/images/pic06.jpg'
 
 //
 //
@@ -60,15 +54,13 @@ const HomeIndex = ({ data }) => {
         <Banner />
 
         <div id="main">
-
-          <ScienceTag />
-          <ScienceTag2 />
           <FFList />
+          <ScienceTag />
 
+          <FeaturesTag2 />
+          <ScienceTag2 />
 
           <FeaturesTag />
-          <FeaturesTag2 />
-
 
           </div>
 
