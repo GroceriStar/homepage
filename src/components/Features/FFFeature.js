@@ -8,7 +8,7 @@ const FFFeature = ( props ) => (
       <h3>{props.heading}</h3>
       <p>{props.content}</p>
     </header>
-    <Link to="/landing" className="link primary"></Link>
+    <Link to={props.to} className="link primary"></Link>
   </article>
 );
 export default FFFeature
