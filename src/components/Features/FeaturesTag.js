@@ -10,19 +10,11 @@ const FeaturesTag = (  ) => (
       <div className="2u 12u$(medium)">&nbsp;</div>
 
       <div className="8u 12u$(medium)">
-        <h2>
-          Dont take our word for it.
-          Try it out yourself.
-        </h2>
-
+        
         <h3>
           Still not Convinced?
           May be this all list of features will help!
         </h3>
-
-        <h4>
-
-        </h4>
 
         <section>
           <div className="contact-method">

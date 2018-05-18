@@ -58,6 +58,19 @@ const HomeIndex = ({ data }) => {
           <ScienceTag />
 
           <FeaturesTag2 />
+          <section id="two2">
+          <div className="inner">
+            <header className="major">
+            <h2>Dont take our word for it.
+            Try it out yourself.
+            </h2>
+            </header>
+            <ul className="actions">
+										<li><a href="#" className="button next">
+                    Create your grocery list</a></li>
+									</ul>
+            </div>
+          </section>
           <ScienceTag2 />
 
           <FeaturesTag />
