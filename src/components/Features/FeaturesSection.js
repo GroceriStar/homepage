@@ -3,6 +3,7 @@ import Link    from 'gatsby-link'
 import Feature from 'Feature'
 import data    from '../../assets/data/first'
 
+
 const FeaturesSection = ({  }) => {
 
   let listItems = _.each(data.features, (i, feature) => (

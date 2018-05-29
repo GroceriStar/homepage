@@ -2,6 +2,7 @@ import React  from 'react'
 import Link   from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+
 import Banner      from '../components/Banner'
 
 import ScienceTag  from '../components/ScienceTag/ScienceTag'
@@ -16,9 +17,9 @@ import FFList from '../components/Features/FFList'
 
 // import Featureslist from '../components/FeaturesList'
 
-import Bottom      from '../components/Bottom'
+import Bottom from '../components/Bottom'
 
-import data  from '../assets/data/first'
+import data   from '../assets/data/first'
 
 
 //
@@ -58,19 +59,21 @@ const HomeIndex = ({ data }) => {
           <ScienceTag />
 
           <FeaturesTag2 />
+
           <section id="two2">
-          <div className="inner">
-            <header className="major">
-            <h2>Dont take our word for it.
-            Try it out yourself.
-            </h2>
-            </header>
-            <ul className="actions">
-										<li><a href="#" className="button next">
-                    Create your grocery list</a></li>
-									</ul>
-            </div>
+            <div className="inner">
+              <header className="major">
+              <h2>Dont take our word for it.
+              Try it out yourself.
+              </h2>
+              </header>
+                <ul className="actions">
+    							<li><a href="#" className="button next">
+                        Create your grocery list</a></li>
+    						</ul>
+              </div>
           </section>
+
           <ScienceTag2 />
 
           <FeaturesTag />
