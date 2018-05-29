@@ -1,6 +1,6 @@
 import React from 'react'
 import Link  from 'gatsby-link'
-import data  from '../../assets/data/second'
+import data  from '../../data/second'
 
 
 const ScienceTag2 = (  ) => (

@@ -1,7 +1,7 @@
 import React   from 'react'
 import Link    from 'gatsby-link'
 import Feature from 'Feature'
-import data    from '../../assets/data/first'
+import data    from '../../data/first'
 
 
 const FeaturesSection = ({  }) => {

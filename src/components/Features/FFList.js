@@ -26,17 +26,17 @@ import picz013 from '../../assets/images/food-13.jpg'
 const FFLink = ( props ) => (
   <section id="one" className="tiles">
     <FFFeature heading="Organize your ingredients"
-    content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."
-    img={picz02}
-    to="#" />
+      content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."
+      img={picz02}
+      to="#" />
     <FFFeature heading="Mobile-oriented design"
-    content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."
-    img={picz013}
-    to="#" />
+      content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."
+      img={picz013}
+      to="#" />
     <FFFeature heading="Grocery lists customization"
-    content="This is your own lists. You can do anything."
-    img={picz011}
-    to="#" />
+      content="This is your own lists. You can do anything."
+      img={picz011}
+      to="#" />
   </section>
 );
 export default FFLink

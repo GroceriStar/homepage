@@ -19,7 +19,7 @@ import FFList from '../components/Features/FFList'
 
 import Bottom from '../components/Bottom'
 
-import data   from '../assets/data/first'
+import data   from '../data/first'
 
 
 //
@@ -68,8 +68,11 @@ const HomeIndex = ({ data }) => {
               </h2>
               </header>
                 <ul className="actions">
-    							<li><a href="#" className="button next">
-                        Create your grocery list</a></li>
+    							<li>
+                    <a href="#" className="button next">
+                        Create your grocery list
+                        </a>
+                  </li>
     						</ul>
               </div>
           </section>
