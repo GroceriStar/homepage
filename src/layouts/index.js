@@ -6,7 +6,7 @@ import '../assets/scss/main.scss'
 
 import Header  from '../components/Header/Header'
 import Menu    from '../components/Menu'
-import Contact from '../components/Contact'
+import Contact from '../components/Contact/Contact'
 import Footer  from '../components/Footer/Footer'
 
 
