@@ -28,12 +28,12 @@ let Contacts = [
     '/Contacts'
 ];
 
-let result = {
-    home: Home,
-    facebook: FacebookLogin,
-    signup: Signup,
-    elements: Elements,
-    contacts: Contacts
-};
+let result = [
+    Home,
+    FacebookLogin,
+    Signup,
+    Elements,
+    Contacts
+];
 
 export default result;
