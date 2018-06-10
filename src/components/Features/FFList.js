@@ -28,15 +28,15 @@ const FFLink = ( props ) => (
     <FFFeature heading="Organize your ingredients"
       content="Do you want to spend less? Do you want to reduce your impulse purchases? Grocery lists can help you. You'll buy only foods that you need."
       img={picz02}
-      to="#" />
+      to='StoreFeatures' />
     <FFFeature heading="Mobile-oriented design"
       content="You can manage all data from your phone. You always carry your smartphone, instead of paper lists. Your lists on your phone, period."
       img={picz013}
-      to="#" />
+      to="StoreFeatures" />
     <FFFeature heading="Grocery lists customization"
       content="This is your own lists. You can do anything."
       img={picz011}
-      to="#" />
+      to="StoreFeatures" />
   </section>
 );
 export default FFLink

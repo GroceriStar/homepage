@@ -2,8 +2,6 @@ import React from 'react'
         import Link  from 'gatsby-link'
         import data  from '../../data/second'
 
-console.log(data[0].url);
-
         const ScienceTag = () => (
 <section id="science-tag1">
     <div className="inner">
