@@ -1,85 +1,54 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import data from './dataArray'
 
+const listItems = [];
 
-const Footer = ( props ) => (
-
-  <footer id="footer">
-      <div className="inner">
-          <ul className="icons">
-            <li>
-              <Link className="icon alt fa-facebook" to="/auth/facebook">
-                <span className="label">
-                Continue with Facebook
+for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < data[i].length; j++) {
+        if (i === 0) {
+            listItems.push(
+                    <li>
+                        <Link className={data[i][j].linkClassName} to={data[i][j].to}>
+                        <span className={data[i][j].spanClassName}>
+                            data[i][j].spanContent
+                        </span>
+                        </Link>
+                    </li>
+                    );
+        } else if (i === 1) {
+            listItems.push(<li>
+                <Link to={data[i][j].to}>
+                <span className={data[i][j].spanClassName}>
+                    {data[i][j].spanContent}
                 </span>
-              </Link>
-            </li>
-            <li>
-              <Link className="icon alt fa-github" to="https://github.com/GroceriStar">
-                <span className="label">
-                GitHub Project
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link className="icon alt fa-linkedin" to="https://www.linkedin.com/company/11486092/">
-                <span className="label">
-                LinkedIn
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link className="icon alt fa-twitter" to="https://twitter.com/GroceriStar">
-                <span className="label">
-                Twitter
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link className="icon alt fa-envelope" to="mailto:arthur.tkachenko.netweight@gmail.com">
-                <span className="label">
-                Email Us
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/terms">
-                <span className="label">
-                Terms
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/privacy">
-                <span className="label">
-                Privacy
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link to="/credits">
-                  <span className="label">
-                  Credits
-                  </span>
-              </Link>
-            </li>
-          </ul>
-
-          <ul className="copyright">
-              <li>
-                &copy; Groceristar
-              </li>
-              <li>
-                Design: &nbsp;
-                <Link  to="https://html5up.net">
-                HTML5 UP
                 </Link>
+            </li>
+            );
+        }
+    }
+}
 
-              </li>
-          </ul>
-
-      </div>
-  </footer>
-)
+const Footer = (props) => (
+            <footer id="footer">
+                <div className="inner">
+                    <ul className="icons">
+                        {listItems}
+                    </ul>
+            
+                    <ul className="copyright">
+                        <li>
+                            &copy; Groceristar
+                        </li>
+                        <li>
+                            Design: &nbsp;
+                            <Link  to="https://html5up.net">
+                            HTML5 UP
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            )
 
 export default Footer
