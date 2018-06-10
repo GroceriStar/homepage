@@ -14,7 +14,7 @@ let array = [
 	{
 		title: 'Using a Grocery List Is Associated with a Healthier Diet and Lower BMI Among Very High Risk Adults',
 		text: [
-			'Food shoppers who reported “always” using a shopping list had significantly higher dietary quality. ...',
+			'Food shoppers who reported “always�? using a shopping list had significantly higher dietary quality. ...',
 			'After applying a Bonferroni correction ... the association between those who always used a list and knowledge of eating fruits and vegetables, and trying to eat fewer calories [was eliminated].'
 		],
 		authors: [
