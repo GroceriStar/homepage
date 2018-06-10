@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import Banner      from '../components/Banner'
 
 import ScienceTag  from '../components/ScienceTag/ScienceTag'
-import ScienceTag2 from '../components/ScienceTag/ScienceTag2'
 
 
 import FeaturesTag from '../components/Features/FeaturesTag'
@@ -76,8 +75,6 @@ const HomeIndex = ({ data }) => {
     						</ul>
               </div>
           </section>
-
-          <ScienceTag2 />
 
           <FeaturesTag />
 
