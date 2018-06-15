@@ -6,7 +6,7 @@
   "dependencies": {
     "flow-bin": "^0.74.0",
     "gatsby": "^1.9.271",
-    "gatsby-image": "^1.0.52",
+    "gatsby-image": "^1.0.53",
     "gatsby-link": "^1.6.44",
     "gatsby-plugin-catch-links": "^1.0.23",
     "gatsby-plugin-google-analytics": "^1.0.31",
