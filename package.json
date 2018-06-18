@@ -16,7 +16,7 @@
     "gatsby-remark-copy-linked-files": "^1.5.37",
     "gatsby-remark-images": "^1.5.66",
     "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.43",
+    "gatsby-transformer-remark": "^1.7.44",
     "gatsby-transformer-sharp": "^1.6.26",
     "lodash": "^4.17.10",
     "react-helmet": "^5.2.0"
