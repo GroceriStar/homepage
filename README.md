@@ -1,5 +1,5 @@
 #### Groceristar Homepage v.3
-[![Build Status](https://travis-ci.org/atherdon/bebe-grocery.svg?branch=master)](https://travis-ci.org/atherdon/bebe-grocery)
+[![Build Status](https://travis-ci.org/GroceriStar/homepage.svg?branch=master)](https://travis-ci.org/GroceriStar/homepage)
 
 Build with Gatsby help
 
