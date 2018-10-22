@@ -18,7 +18,7 @@ let linkedin = {
     spanClassName: 'label',
     spanContent: 'LinkedIn'
 };
-        
+
 let twitter = {
     linkClassName: 'icon alt fa-twitter',
     to: 'https://twitter.com/GroceriStar',
@@ -57,8 +57,15 @@ let copyright = {
     spanContent: 'Credits'
 };
 
+let about = {
+    to: '/about-groceristar',
+    spanClassName: 'label',
+    spanContent: 'About Groceristar company'
+};
+
+
 let social = [facebook, github, linkedin, twitter, email];
-let legal = [terms, privacy, credits];
+let legal  = [terms, privacy, credits, about];
 
 let data = [
     social,
