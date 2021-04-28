@@ -1,0 +1,60 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: gatsby-remark-copy-linked-files
+    versions:
+    - 2.10.0
+    - 2.9.0
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 4.0.0
+  - dependency-name: gatsby-image
+    versions:
+    - 2.10.0
+    - 2.11.0
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.10.0
+    - 3.9.0
+    - 4.0.0
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+  - dependency-name: gatsby-remark-images
+    versions:
+    - 3.10.0
+    - 3.11.0
+    - 3.11.1
+    - 4.0.0
+    - 4.1.0
+    - 4.1.1
+    - 4.2.0
+    - 5.0.0
+  - dependency-name: flow-bin
+    versions:
+    - 0.143.1
+    - 0.144.0
+    - 0.145.0
+    - 0.146.0
+    - 0.147.0
+    - 0.148.0
